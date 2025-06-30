@@ -2,7 +2,10 @@ import { StyleSheet } from "react-native";
 
 export const Style = StyleSheet.create({
     container: {
-        padding: 8
+        flex: 1,
+        backgroundColor: "#6366f1",
+        alignItems: "center",
+        justifyContent: "center",
     },
     LogoImage: {
         height: 50,
@@ -39,5 +42,39 @@ export const Style = StyleSheet.create({
         height: 32,
         width: 32,
         borderRadius: 16
+    },
+    input: {
+        width: "90%",
+        height: 50,
+        backgroundColor: "white",
+        borderRadius: 25,
+        paddingHorizontal: 20,
+        fontSize: 16,
+        marginVertical: 10,
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 2,
+        },
+        shadowOpacity: 0.1,
+        shadowRadius: 3.84,
+        elevation: 5,
+    },
+    button: {
+        width: "90%",
+        height: 50,
+        backgroundColor: "#8b5cf6",
+        borderRadius: 25,
+        alignItems: "center",
+        justifyContent: "center",
+        marginTop: 20,
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 2,
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 3.84,
+        elevation: 5,
     },
 });

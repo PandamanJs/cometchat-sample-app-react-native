@@ -6,10 +6,10 @@ import { AppStyle } from "../../AppStyle";
 import { CardView } from "../common/CardView";
 
 const customTheme = new CometChatTheme({});
-customTheme.palette.accent = { light: "red", dark: "green" };
-customTheme.palette.accent50 = { light: "grey", dark: "cyan" };
-customTheme.palette.accent600 = { light: "rgb(100,100,100)", dark: "grey" };
-customTheme.palette.backgroundColor = { light: "rgba(50,250,250,1)", dark: "black" };
+customTheme.palette.accent = { light: "#6366f1", dark: "#8b5cf6" };
+customTheme.palette.accent50 = { light: "#f0f9ff", dark: "#1e1b4b" };
+customTheme.palette.accent600 = { light: "#4338ca", dark: "#7c3aed" };
+customTheme.palette.backgroundColor = { light: "#f8fafc", dark: "#0f172a" };
 
 export const Theme = (props) => {
 
@@ -82,7 +82,7 @@ const Style = StyleSheet.create({
   },
   button: {
     borderRadius: 18,
-    backgroundColor: "rgb(51, 155, 255)",
+    backgroundColor: "#6366f1",
     width: "100%",
     padding: 16,
     marginBottom: 24,

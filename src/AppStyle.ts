@@ -26,7 +26,7 @@ export const AppStyle = StyleSheet.create({
   featureInfo: {
     fontWeight: "400",
     fontSize: 16,
-    color: "grey",
+    color: "#64748b",
     marginBottom: 24,
   },
   devider: {
