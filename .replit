@@ -9,3 +9,15 @@ run = ["sh", "-c", "npm run start"]
 
 [[ports]]
 localPort = 8081
+
+[workflows]
+runButton = "Start Metro Server"
+
+[[workflows.workflow]]
+name = "Start Metro Server"
+author = 43916677
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npx react-native start --reset-cache"
