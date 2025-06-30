@@ -21,3 +21,12 @@ mode = "sequential"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "npx react-native start --reset-cache"
+
+[[workflows.workflow]]
+name = "Run Web"
+author = 43916677
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npm run web"
